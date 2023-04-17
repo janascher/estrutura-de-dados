@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "estrutura-de-dados"
+version = "0.1.0"
+description = "Conceitos básicos sobre Estrutura de Dados"
+authors = ["Janaína Scher <janainascher@protonmail.com>"]
+readme = "README.md"
+packages = [{include = "estrutura_de_dados"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+numpy = "^1.24.2"
+pytest = "7.2.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
