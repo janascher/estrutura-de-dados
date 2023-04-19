@@ -1,14 +1,10 @@
-# AULA 01 - ARRAYS NÃO ORDENADO E ORDENADO
-#
-# EXERCÍCIO:
-# Descrever um exemplo o mais real que descobrir sobre o uso de Estrutura de Dados.
-#
-# RESOLUÇÃO 1 - ARRAY NÃO ORDENADO:
-# Um exemplo de uso de uma estrutura de dados de array não ordenado é um sistema de gerenciamento de lista de tarefas. Nesse sistema, as tarefas são armazenadas em um array que não é ordenado, o que significa que elas não estão em uma ordem específica. Cada elemento do array representa uma tarefa e pode conter informações como o nome da tarefa, a data de criação e a data de vencimento.
-#
-# Ao adicionar uma nova tarefa, ela é simplesmente adicionada ao final do array. Para encontrar uma tarefa específica, é necessário percorrer todo o array em busca dela. Isso pode ser menos eficiente do que se a lista de tarefas fosse ordenada por data de vencimento, por exemplo, mas para listas pequenas ou que não precisam ser acessadas com frequência, o desempenho é aceitável.
-#
-# No entanto, se a lista de tarefas crescer muito, o desempenho pode ser afetado, especialmente se houver muitas operações de busca.
+"""
+    A resolução apresentada é um exemplo de uso de uma estrutura de dados de array *não ordenado* é um sistema de gerenciamento de lista de tarefas. Nesse sistema, as tarefas são armazenadas em um array que não é ordenado, o que significa que elas não estão em uma ordem específica. Cada elemento do array representa uma tarefa e pode conter informações como o nome da tarefa, a data de criação e a data de vencimento.
+
+    Ao adicionar uma nova tarefa, ela é simplesmente adicionada ao final do array. Para encontrar uma tarefa específica, é necessário percorrer todo o array em busca dela. Isso pode ser menos eficiente do que se a lista de tarefas fosse ordenada por data de vencimento, por exemplo, mas para listas pequenas ou que não precisam ser acessadas com frequência, o desempenho é aceitável.
+
+    No entanto, se a lista de tarefas crescer muito, o desempenho pode ser afetado, especialmente se houver muitas operações de busca.
+"""
 
 from datetime import datetime
 import numpy as np
