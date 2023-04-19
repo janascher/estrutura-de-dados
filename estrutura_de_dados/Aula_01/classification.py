@@ -1,16 +1,12 @@
-# AULA 01 - ARRAYS NÃO ORDENADO E ORDENADO
-#
-# EXERCÍCIO:
-# Descrever um exemplo o mais real que descobrir sobre o uso de Estrutura de Dados.
-#
-# RESOLUÇÃO 2 - ARRAY ORDENADO:
-# Um exemplo de uso de uma estrutura de dados com array ordenado é um sistema de classificação de alunos por notas em uma escola.
-#
-# Nesse sistema, cada aluno tem uma nota associada a ele. Essas notas são armazenadas em um array ordenado em ordem crescente ou decrescente.
-#
-# Ao inserir uma nova nota de um aluno, o algoritmo de inserção realiza uma busca no array para encontrar a posição correta da nova nota. Em seguida, o algoritmo desloca as notas subsequentes para a direita para abrir espaço para a nova nota e insere a nota na posição correta.
-#
-# Esse sistema permite uma rápida busca por alunos com notas específicas. Por exemplo, para encontrar todos os alunos com notas maiores que uma nota X, basta fazer uma busca na estrutura de dados e retornar todos os elementos subsequentes à posição da nota X.
+"""
+    A resolução apresentada é um exemplo de uso de uma estrutura de dados com array *ordenado* é um sistema de classificação de alunos por notas em uma escola.
+
+    Nesse sistema, cada aluno tem uma nota associada a ele. Essas notas são armazenadas em um array ordenado em ordem crescente ou decrescente.
+
+    Ao inserir uma nova nota de um aluno, o algoritmo de inserção realiza uma busca no array para encontrar a posição correta da nova nota. Em seguida, o algoritmo desloca as notas subsequentes para a direita para abrir espaço para a nova nota e insere a nota na posição correta.
+
+    Esse sistema permite uma rápida busca por alunos com notas específicas. Por exemplo, para encontrar todos os alunos com notas maiores que uma nota X, basta fazer uma busca na estrutura de dados e retornar todos os elementos subsequentes à posição da nota X.
+"""
 
 import numpy as np
 
