@@ -13,6 +13,17 @@
 
 Repositório criado para registrar as resoluções dos exercícios relacionados ao módulo de Estrutura de Dados com Python da Alpha EdTech, administrado pelo professor Paulo Marcotti.
 
+## 📚 Ementa
+
+-   Array
+-   Fila, Pilha, Deque, Lista Encadeada Simples e Simples com Extremidade Dupla
+-   Lista Encadeada Simples e Lista Encadeada com Extremidades Dupla
+-   Lista Duplamente Encadeada e Lista Encadeada usada para Fila e Pilha
+-   Árvore Binária de Busca
+-   Árvore Binária de Busca Balanceada
+-   Árvore de Busca e Grafos
+-   Hashcode e Hashtable, Dictionary e Set
+
 ## 🦸 Autor
 
 <div>
